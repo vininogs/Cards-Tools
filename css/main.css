@@ -1,0 +1,39 @@
+.cards {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.cardsD {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 80px;
+}
+
+.logoGS {
+    width: 60px;
+}
+
+.bg {
+    background: black;
+}
+
+.hover:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+ 
+@media only screen and (max-width: 600px) {
+    .margin {
+        margin: 15px;
+    }
+  }
